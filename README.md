@@ -23,3 +23,12 @@ This open source project will be able to:
 
 ![alt text](https://github.com/neuhausmatheus/Continuous-Deployment-SLOs/blob/main/images/perf-test.png?raw=true)
 
+## How does this project solves that?
+
+Kubernetes-SLOs-Checker is a tool that provides multiple features to simplify and enhance the process of performance testing for HTTP and gRPC services. Among its capabilities are the ability to generate load and collect metrics. In addition, Kubernetes-SLOs-Checker offers a clear and well-defined concept of service-level objectives (SLOs), which makes it easy to define and verify them.
+
+Another valuable feature of Kubernetes-SLOs-Checker is the support for custom metrics, which allows users to use data from various sources, including REST APIs and other databases. To ensure accurate and reliable results, Kubernetes-SLOs-Checker includes a readiness check that ensures that the performance testing portion of the experiment starts only after the target service is ready.
+
+To facilitate analysis and decision-making, Kubernetes-SLOs-Checker offers Grafana's dashboards reports that provide visual insights into the validation results. Moreover, Kubernetes-SLOs-Checker enables users to set assertions that verify whether the target application meets the defined SLOs, which simplifies the automation process in CI/CD/GitOps pipelines by branching off into different paths depending on the assertions' outcomes.
+
+Kubernetes-SLOs-Checker also supports multi-loop experiments, which means that users can execute experiment tasks periodically instead of just once, allowing the tool to refresh metric values and perform SLO validation using the latest metric values during each loop. Finally, it is worth noting that Kubernetes-SLOs-Checker is a flexible tool that can be used
