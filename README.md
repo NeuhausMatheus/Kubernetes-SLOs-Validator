@@ -18,3 +18,7 @@ This open source project will be able to:
 4. Compare and Validate SLOs. Can be visualized in Grafana (Prometheus-like results) or in WebUI.
 5. Roll back or Promote it using pipeline, GitOps or any other method of deployment.
 6. Chaos Engineering might be implemented as well.
+
+## Architecture
+
+![Continuos-Deployment] (images/readme.md)
