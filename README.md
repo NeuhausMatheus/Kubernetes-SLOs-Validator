@@ -21,4 +21,5 @@ This open source project will be able to:
 
 ## Architecture
 
-![Continuos-Deployment] (images/perf-test.png)
+![alt text](https://github.com/neuhausmatheus/Continuous-Deployment-SLOs/blob/main/images/perf-test.png?raw=true)
+
