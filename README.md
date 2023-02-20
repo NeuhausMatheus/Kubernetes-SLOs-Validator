@@ -23,7 +23,7 @@ This open source project will be able to:
 
 ![alt text](https://github.com/neuhausmatheus/Continuous-Deployment-SLOs/blob/main/images/perf-test.png?raw=true)
 
-In this image Kubernetes-SLOs-Validator is the Perf-Test which is sending and receiving requests from the application that is being validated, and querying metrics from Metrics Server or Prometheus API to compare with business SLOs.
+In this image Kubernetes-SLOs-Validator is the Perf-Test which is sending and receiving requests from the application that is being validated, and querying metrics from Metrics Server or Prometheus API to compare with business SLOs. All the process is automated, by just in case that we need: the user is able to reach Kubernetes-SLOs-Validator using an ingress or to see reports on Grafana. 
 
 ## How does this project solves that?
 
