@@ -23,6 +23,8 @@ This open source project will be able to:
 
 ![alt text](https://github.com/neuhausmatheus/Continuous-Deployment-SLOs/blob/main/images/perf-test.png?raw=true)
 
+In this image Kubernetes-SLOs-Validator is the Perf-Test which is sending and receiving requests from the application that is being validated, and querying metrics from Metrics Server or Prometheus API to compare with business SLOs.
+
 ## How does this project solves that?
 
 Kubernetes-SLOs-Checker is a tool that provides multiple features to simplify and enhance the process of performance testing for HTTP and gRPC services. Among its capabilities are the ability to generate load and collect metrics. In addition, Kubernetes-SLOs-Checker offers a clear and well-defined concept of service-level objectives (SLOs), which makes it easy to define and verify them.
