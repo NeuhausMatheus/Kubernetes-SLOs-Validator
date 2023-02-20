@@ -21,4 +21,4 @@ This open source project will be able to:
 
 ## Architecture
 
-![Continuos-Deployment] (images/readme.md)
+![Continuos-Deployment] (images/perf-test.png)
